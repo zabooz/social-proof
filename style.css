@@ -60,6 +60,7 @@ h1 {
 main {
     display: flex;
     background: url(images/bg-pattern-bottom-desktop.svg);
+    gap: 1.5rem;
 
 }
 .card {
