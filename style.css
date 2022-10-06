@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+body  {
+    font-family: "League Spartan",sans-serif;
+    padding:4rem;
+    margin:0;
+    font-size: 1rem;
+    background: url(images/bg-pattern-top-desktop.svg);
+    background: url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.topic {
+    max-width: 23rem;
+}
+.topic  p {
+    line-height: 1.3rem;
+    color: hsl(303, 10%, 53%);
+
+}
+.rating {
+    max-width: 23rem;
+    padding-top:2rem
+}
+.rating  p {
+    background-color: hsl(300, 24%, 96%);
+}
+h1 {
+    font-size: 3rem;
+    color: hsl(300, 61%, 38%);
+}
+main {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.card {
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    max-width: 33%;
+    border-radius: .5rem;
+    padding: 2rem;
+    max-width: 17.5rem;
+    flex-shrink: 0;
+
+}
+.card img {
+    max-width: 3rem;
+    max-height:3rem;
+    border-radius: 1.5rem;
+}
+.avatar {
+    display:flex;
+    align-items: center;
+    gap:1.5rem;
+}
+.name p{
+    margin:.3rem auto;
+}
+#c1 {
+    margin-bottom: 1rem;
+}
+#c2 {
+    margin-top: 1rem;
+}
+#c3 {
+    margin-top: 2rem;
+}
